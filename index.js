@@ -1,4 +1,4 @@
-const jsonServer = required("json-server"); //IMPORTAR EL JSONSERVER
+const jsonServer = require("json-server"); //IMPORTAR EL JSONSERVER
 const server = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
